@@ -1,0 +1,32 @@
+{
+  "name": "starter-kit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/starter-kit/",
+    "preview": "vite preview",
+    "watch": "npx vite build --watch"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ],
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.4",
+    "fast-glob": "^3.3.1",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
+    "postcss-sort-media-queries": "^5.2.0",
+    "sass": "^1.68.0",
+    "sharp": "^0.32.6",
+    "svgo": "^3.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-image-optimizer": "^1.1.7"
+  },
+  "dependencies": {
+    "animejs": "^3.2.2",
+    "body-scroll-lock": "^4.0.0-beta.0"
+  }
+}
