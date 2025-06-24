@@ -1,0 +1,24 @@
+@if index($btn-types , danger ) {
+    /* ==Danger== */
+    .btn--danger {
+        background-color: #FC5A5A;
+
+        &:active {
+            background-color: darken(#FC5A5A, 10%);
+        }
+
+        @media (hover: hover) {
+            &:hover,
+            &:focus {
+                background-color: lighten(#FC5A5A, 10%);
+            }
+        }
+
+        &[disabled] {
+            background-color: #b5b5be;
+        }
+    }
+    
+} @else {
+    @warn 'there is no such btn type in list';
+}

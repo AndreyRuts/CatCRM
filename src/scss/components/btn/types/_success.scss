@@ -1,0 +1,24 @@
+@if index($btn-types , success ) {
+    /* ==Success== */
+    .btn--success {
+        background-color: #82C43C;
+
+        &:active {
+            background-color: darken(#82C43C, 10%);
+        }
+
+        @media (hover: hover) {
+            &:hover,
+            &:focus {
+                background-color: lighten(#82C43C, 10%);
+            }
+        }
+
+        &[disabled] {
+            background-color: #b5b5be;
+        }
+    }
+    
+} @else {
+    @warn 'there is no such btn type in list';
+}

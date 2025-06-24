@@ -1,0 +1,22 @@
+@if index($btn-types , secondary ) {
+    /* ==Secondary== */
+    .btn--secondary {
+        &:active {
+            background-color: #d14a00;
+        }
+
+        @media (hover: hover) {
+            &:hover,
+            &:focus {
+                color: #f15c27;
+            }
+        }
+
+        &[disabled] {
+            background-color: #b5b5be;
+        }
+    }
+    
+} @else {
+    @warn 'there is no such btn type in list';
+}
