@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/cat-crm/",
+    "build": "vite build --base=/CatCRM/",
     "preview": "vite preview",
     "watch": "npx vite build --watch"
   },
