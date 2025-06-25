@@ -44,8 +44,6 @@ $reports-status: (
     }
 }
 
-.reports-item {}
-
 .reports-staff {
     flex-grow: 1;
     flex-shrink: 0;
@@ -60,8 +58,6 @@ $reports-status: (
 .staff-thumb {
     @include mx.frame(32px, $is-circle: true);
 }
-
-.staff-avatar {}
 
 .staff-caption {
     @extend %details;
@@ -99,9 +95,6 @@ $reports-status: (
     }
 }
 
-.progress-bar {
-}
-
 .reports-icon {
     flex-shrink: 0;
 
@@ -126,9 +119,3 @@ $reports-status: (
         }
     }
 }
-
-.up {}
-
-.dash {}
-
-.down {}

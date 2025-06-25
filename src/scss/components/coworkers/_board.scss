@@ -29,8 +29,6 @@
     }
 }
 
-.board-left {}
-
 .board-caption {
     @extend %accent-text;
 
@@ -45,8 +43,6 @@
     color: fn.get-color('light-secondary');
 }
 
-.board-coworker {}
-
 .person {
     display: flex;
     align-items: center;
@@ -56,8 +52,6 @@
 .person-thumb {
     @include mx.frame(24px, $is-circle: true);
 }
-
-.person-avatar {}
 
 .person-caption {
     @extend %details;
@@ -76,16 +70,3 @@
     text-align: right;
     color: fn.get-color('light-secondary');
 }
-
-
-
-
-.badge {}
-
-.warning {}
-
-
-
-.controls-btn-icon {}
-
-.visually-hidden {}
